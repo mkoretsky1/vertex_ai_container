@@ -1,0 +1,7 @@
+gunicorn
+pandas
+numpy
+flask
+scikit-learn
+umap-learn
+numba==0.51.2
