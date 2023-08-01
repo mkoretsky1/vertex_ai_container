@@ -7,7 +7,7 @@ import json
 
 app = Flask(__name__)
 
-pkl_path = 'model/GP2_merge_APRIL_2023_ready_genotools_callrate_sex_ancestry_umap_linearsvc_ancestry_model.pkl'
+pkl_path = 'model/neuroChip_AFR_NG_hg38_updatedIDs_callrate_ancestry_umap_linearsvc_ancestry_model.pkl'
 pkl_in = open(pkl_path, 'rb')
 pipe_clf = pkl.load(pkl_in)
 pkl_in.close()
