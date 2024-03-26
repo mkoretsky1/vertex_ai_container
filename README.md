@@ -1,2 +1,2 @@
 # Vertex AI Container
-Custom container to house predictions on Google Cloud Vertex AI.
+Custom container and Flask app to house predictions on Google Cloud Vertex AI.
